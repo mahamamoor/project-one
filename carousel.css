@@ -1,8 +1,11 @@
 /* Carousel CSS */
 body {
 	background: #f1ebd6;
+	background-image: url("https://imgur.com/F256f6P.jpg");
 }
 .container {
+	height: 100vw;
+	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

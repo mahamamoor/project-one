@@ -13,8 +13,7 @@ const changeName = () => {
 }
 
 $(() => {
-  const $name = $('#name')
-  $name.hover(changeName)
+  $('.top-right-name').hover(changeName)
 })
 
 // const $div = $('<div>').attr('id', 'nav-placeholder').addTo('body')

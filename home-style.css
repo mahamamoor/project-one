@@ -1,3 +1,14 @@
+/* media query for bottons */
+
+body {
+  margin: 0;
+  color: white;
+}
+
+.top-right-name {
+  padding-top: 50px;
+  padding-left: 20px;
+}
 
 .name-1 {
   display: block;
@@ -7,37 +18,31 @@
   display: none;
   font-family: 'Noto Naskh Arabic', serif;
 }
-/*
+
 .main {
-  background-image: url();
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* height: 90vw; */
+  background-image: url("https://imgur.com/457yZ2h.jpg");
   background-repeat: no-repeat;
-  background-size: 150px;
-  width: 100%;
-  height: auto;
-} */
-
-/* unvisited link */
-a:link {
-  color: red;
+  display: flex;
+  flex-direction: column;
 }
 
-/* visited link */
-a:visited {
-  color: black;
+.link {
+  text-decoration: none;
+  color: white;
 }
 
-/* mouse over link */
-a:hover {
-  color: red;
+.button {
+  background-color: #f1d6d6;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
-
-/* selected link */
-a:active {
-  color: red;
-}
-
 
 /* Container holding the image and the text */
 .container {
