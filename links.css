@@ -1,0 +1,14 @@
+
+.links-body {
+  background-color: #183550;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20em;
+  width: 20em;
+  margin: auto;
+}

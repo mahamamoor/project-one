@@ -1,0 +1,59 @@
+/* Carousel CSS */
+body {
+	background: #f1ebd6;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container > img {
+	width: 50%;
+}
+.container > h1 {
+	font-family: "Montserrat", impact;
+	font-weight: 800;
+	font-size: 4.5em;
+	margin-top: -1%;
+	color: #729c69;
+	text-shadow: 1px 1px #354A21;
+	letter-spacing: 2px;
+}
+/* ======= CAROUSEL SECTION ======== */
+.carousel-container {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+.carousel-images {
+	width: 80%;
+	background: #354A21;
+	padding: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px #354A21;
+}
+.carousel-images img {
+	width: 100%;
+	border-radius: 10px;
+	display: none;
+}
+.carousel-button {
+	align-self: center;
+	background: #729c69;
+	color: #888;
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 1px 1px #729c69;
+}
+.carousel-button:hover {
+	cursor: pointer;
+	background: #729c69;
+	box-shadow: 1px 1px #729c69;
+	color: white;
+}
+
+.carousel-images img:first-of-type {
+  display: block;
+}

@@ -1,0 +1,12 @@
+body {
+  background-image: linear-gradient(to left,pink,#f3e4b3);
+}
+
+.img {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
