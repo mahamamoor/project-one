@@ -3,6 +3,24 @@ body {
 	background: #f1ebd6;
 	background-image: url("https://imgur.com/F256f6P.jpg");
 }
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.button {
+  background-color: #f1d6d6;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .container {
 	height: 100vw;
 	background-repeat: no-repeat;
